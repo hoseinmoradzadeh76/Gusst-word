@@ -1,0 +1,51 @@
+.hidden{
+    display: none;
+}
+input{
+    padding:10px 15px;
+    outline: none;
+    border-radius: 20px;
+    border: none;
+    margin:5px ;
+    box-shadow: inset 8px 5px 10px rgba(0, 0, 0, 0.2),inset -8px -8px 10px rgba(0, 0, 0, 0.2);
+    font-size: 16px;
+    color: black;
+    width: 50%;
+}
+body{
+    display: flex;
+   
+    justify-content:center ;
+    align-items: center;
+    
+}
+.gusst{
+    width: 600px;
+    height: 500px;
+    box-shadow: inset 8px 5px 10px rgba(0, 0, 0, 0.2),inset -8px -8px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    background: linear-gradient(to left ,rgba(6, 245, 213, 0.1),rgba(3, 248, 44, 0.4));
+}
+.message{
+    color: rgb(238, 6, 18);
+}
+button{
+    margin-top: 10px;
+    padding: 12px 20px;
+    border-radius: 7px;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    font-weight: bolder;
+    box-shadow: inset 8px 5px 10px rgba(0, 0, 0, 0.2),inset -8px -8px 10px rgba(0, 0, 0, 0.2);
+    background: rgb(97, 97, 250);
+    color: white;
+    
+}
+.wordd{
+    color: rgb(8, 163, 55); 
+}
